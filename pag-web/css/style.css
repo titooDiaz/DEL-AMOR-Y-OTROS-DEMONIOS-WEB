@@ -27,7 +27,7 @@ header{
 }
 
 header .logo{
-    width: 15vmax;
+    width: 5vh;
     cursor: pointer;
 }
 
@@ -139,9 +139,19 @@ section #btn:hover{
     font-size: 1.2em;
     color: #fff;
 }
+#persona{
+    display: none;
+}
 
 /* AHORA HAREMOS EL RESPONSIVO */
 @media (max-width: 991px){
+    #persona{
+        display: flex;
+    }
+    #viento{
+        display: none;
+    }
+
     .sec{
         padding: 60px;
     }
