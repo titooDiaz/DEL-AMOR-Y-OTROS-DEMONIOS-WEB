@@ -12,10 +12,10 @@ let persona = document.getElementById('persona')
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
     
-    transparente.style.marginLeft =  value * 0.7 + 'px';
+    transparente.style.marginLeft =  value * 0.5 + 'px';
     nube1.style.left = value* -5  + 'px';
     nube2.style.left = value* -5  + 'px';
-    btn.style.marginTop = value * 0.7 + 'px';
+    btn.style.marginTop = value * 0.5 + 'px';
     slogan.style.marginBottom =   value* -1  + 'px';
     viento.style.left = value* -5  + 'px';
     header.style.marginTop = value * 0.4 + 'px';
