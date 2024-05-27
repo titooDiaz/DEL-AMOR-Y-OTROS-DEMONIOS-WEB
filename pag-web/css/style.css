@@ -13,6 +13,12 @@ body{
     background: linear-gradient(0deg, rgba(207,224,255,1) 0%, rgba(130,127,209,1) 100%);
 }
 
+#trailer{
+    border: #929292 solid 4px;
+    border-radius: 50px;
+    width: 100%;
+}
+
 header{
     position: absolute;
     top: 0;
